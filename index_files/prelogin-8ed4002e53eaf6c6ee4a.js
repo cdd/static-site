@@ -1,0 +1,2 @@
+webpackJsonp([76],{6933:function(e,n,t){"use strict";t(6934)},6934:function(e,n,t){"use strict";(function(e){e(function(){e("form#login_form").on("submit",function(n){n.preventDefault();var t=this;e.ajax({method:"GET",url:"/user/session/refresh_token"}).done(function(n,o,s){var r=s.getResponseHeader("X-CSRF-Token");e('meta[name="csrf-token"]').attr("content",r),e.rails.refreshCSRFTokens(),t.submit()})})})}).call(n,t(12))}},[6933]);
+//# sourceMappingURL=prelogin-8ed4002e53eaf6c6ee4a.js.map
